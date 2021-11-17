@@ -1,0 +1,49 @@
+.top-menu{
+    width: 100vw;
+    height: 7rem;    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: $bg2;
+    color: $bw;
+    position: fixed;
+    z-index: 5;
+    top: 0;
+    left: 0;
+
+    
+}
+.top-menu-items {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-evenly;
+
+    li{
+        margin-right:  1rem;
+    }
+    li:hover{
+        background-color: blueviolet;
+    }
+
+}
+li a{
+    text-decoration: none;
+    color: $bw;
+    font-size: 1.5rem;
+    padding: 1rem;
+}
+.span-top-menu{
+    font-size: 1.5rem;
+    align-self: center;
+    margin-left: 1rem;
+
+}
+.dropdown i{
+    //display: none;
+    font-size: 3rem;
+    padding: 1rem;
+}
+
+
+
+
