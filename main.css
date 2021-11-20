@@ -416,20 +416,26 @@ main {
 
 .experience {
   margin: 7rem 5rem;
+  background-image: linear-gradient(to bottom, #5000c7, #3c00fffd, white);
+  height: 100vh;
 }
 .experience h1 {
-  font-size: 2rem;
+  font-size: 3rem;
   font-weight: bolder;
+  color: white;
+  margin-top: 1rem;
 }
 .experience h3 {
   font-size: 1.5rem;
 }
 
 .education {
-  margin: 7rem 0;
+  margin: 7rem 5rem;
+  background-image: linear-gradient(to top, #5000c7, #3c00fffd, white);
+  height: 100vh;
 }
 .education h1 {
-  font-size: 2rem;
+  font-size: 3rem;
   font-weight: bold;
 }
 .education h3 {
@@ -439,16 +445,19 @@ main {
 .edu-info {
   margin: 3rem;
   padding: 20px;
+  height: 70vh;
   display: grid;
-  grid-template-columns: 3fr 1fr;
-  border-left: 3px solid grey;
+  justify-content: center;
+  align-content: center;
+  border-left: 5px solid grey;
 }
 .edu-info div {
   padding: 50px 0;
-  font-size: 1.2rem;
+  font-size: 2.2rem;
 }
 .edu-info h3 {
   font-weight: bolder;
+  font-size: 4rem;
 }
 .edu-info .date {
   color: blue;
